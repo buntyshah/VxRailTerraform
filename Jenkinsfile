@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://your-repo.git'
+                git 'https://github.com/buntyshah/VxRailTerraform.git'
             }
         }
 
